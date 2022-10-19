@@ -1,0 +1,16 @@
+// it is a prime or not 
+
+let num=23;
+let count_factor=0;
+for(let i=0; i<=num;i++){
+if(num%i=0){
+  coun_factor++;
+}
+}
+
+if(count_factor==2){
+console.log(num,"it is a prime number");
+}
+else{
+console.log(num,"it is not prime");
+}
