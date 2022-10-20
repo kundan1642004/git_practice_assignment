@@ -2,15 +2,16 @@
 
 let num=23;
 let count_factor=0;
-for(let i=0; i<=num;i++){
-if(num%i=0){
-  coun_factor++;
-}
+
+for (let i = 0; i <= num; i++) {
+  if (num % i== 0) {
+    count_factor++;
+  }
 }
 
-if(count_factor==2){
-console.log(num,"it is a prime number");
+if (count_factor == 2) {
+  console.log(num, "is prime number");
 }
-else{
-console.log(num,"it is not prime");
+else {
+  console.log(num, "is not prime");
 }
